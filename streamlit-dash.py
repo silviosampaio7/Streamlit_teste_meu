@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+from plotly import express as px
 # Configuração da página
 st.set_page_config(page_title="DESPESAS", layout="wide")
 # Título da aplicação
